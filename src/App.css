@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
+*{
+  margin:0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1440px;
+  font-family: 'Figtree', sans-serif;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  height: 100vh;
+  color: hsl(0, 0%, 7%);
+  background-color: hsl(47, 88%, 63%);
+  font-size: 16px;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  width: 375px;
+  height: 550px;
+  border: 1px solid hsl(0, 0%, 7%);
+  box-shadow: 10px 10px 0px 0px hsl(0, 0%, 7%);
+}
+
+.card .title-1{
+  background-color: hsl(47, 88%, 63%);
+  padding: 5px;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+}
+
+.card .title-2:hover{
+  color: hsl(47, 88%, 63%);
+  cursor: pointer;
+}
+
+.card .imagen{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card img {
+  width: 90%;
+  border-radius: 20px;
+}
+.card .text{
+  text-align: left;
+  padding: 20px;
+}
+
+.card .text h2,h3,p {
+  margin: 10px 0 15px;
+}
+
+.card .text .phrase{
+  color: hsl(0, 0%, 50%);
+}
+
+.autor img{
+  width: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.card .autor{
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  
+}
+
+.card .autor-text{
+  font-weight: 700;
+}
